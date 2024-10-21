@@ -12,7 +12,7 @@ from image import remove_and_translate_text
 
 app = Flask(__name__, static_folder="static", static_url_path="/static")
 translator = Translator()
-
+# comment
 
 def convert_to_text(file):
     text = ""
