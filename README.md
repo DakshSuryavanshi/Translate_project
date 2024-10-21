@@ -8,6 +8,13 @@ IndiTranslate (Poster Text Translation Project)
 
 This project translates text on posters into regional languages and maps the translated text back onto the posters, creating localized versions of visual materials. The tool utilizes advanced image processing techniques combined with natural language processing (NLP) to detect, translate, and remap text.
 
+IndiTranslate is an innovative OCR-powered translation tool that aims to break language barriers by converting posters in various regional languages into English. With the rapid globalization and the increasing need for accessible information, this tool serves as an essential resource for individuals, businesses, and organizations that require accurate translations for better communication and understanding.
+
+## Demo Video
+
+Watch the demo video to see how IndiTranslate works [here](https://drive.google.com/uc?id=1QEbs_TleIe3HqEBPFDIG84nhE_D7mdam).
+
+
 Features
 
 	•	Text Detection: Extracts text from images or posters.
@@ -18,6 +25,21 @@ Project Structure
 
 	•	main.py: Contains the main logic for the project, including the text extraction and translation workflow.
 	•	image.py: Handles image-related processing tasks, including text detection and mapping translated text back onto the poster.
+
+Tech Stack
+
+- **Programming Languages**: 
+  - **Python**: For backend development and implementing machine learning algorithms.
+  - **HTML/CSS**: For creating a responsive and user-friendly frontend.
+
+- **Libraries/Frameworks**:
+  - **Keras-OCR**: For extracting text from images using deep learning techniques.
+  - **TensorFlow**: For building and training machine learning models.
+  - **Flask**: A lightweight web framework for developing the web application.
+
+- **Front-End Technologies**:
+  - **HTML**: For structuring the web application.
+  - **CSS**: For styling and ensuring a pleasant user experience.
 
 Requirements
 
@@ -54,7 +76,7 @@ How to Use
 
 	1.	Clone the repository:
 
-git clone https://github.com/qamarali01/IndiTranslate
+git clone https://github.com/vedanshibansal/Translate_project.git
 cd IndiTranslate
 
 
@@ -94,5 +116,5 @@ Contact
 
 For any questions or support, feel free to contact me:
 
-	•	Email: qamarali9584@gmail.com
-	•	GitHub: github.com/qamarali01
+	•	Email: vedanshibansal17@gmail.com
+	•	GitHub: https://github.com/vedanshibansal
